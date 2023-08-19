@@ -51,3 +51,5 @@ streamlit.dataframe(my_data_rows)
 my_cur.execute("insert into fruit_load_list values ('" + add_my_fruit + "')")
 #allow the end user to add a fruit to the list
 add_my_fruit = "jackfruit"
+
+delete = "jackfruit"
