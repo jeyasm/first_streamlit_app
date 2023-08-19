@@ -48,5 +48,5 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
 #allow user to add a fruit
-my_cur.execute("insert into fruit_load_list values ('"jackfruit"')")
+my_cur.execute("insert into fruit_load_list values ('add_my_fruit = "jackfruit"')")
 
