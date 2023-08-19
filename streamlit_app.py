@@ -52,4 +52,4 @@ my_cur.execute("insert into fruit_load_list values ('" + add_my_fruit + "')")
 #allow the end user to add a fruit to the list
 add_my_fruit = "jackfruit"
 
-del into fruit_load_list_values ("jackfruit")
+my_cur.del (fruit_load_list_values ("+ jackfruit"))
